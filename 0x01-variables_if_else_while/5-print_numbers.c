@@ -9,10 +9,9 @@ int main(void)
 {
 	int k = 0;
 
-	if (k <= 10)
+	for (; k <= 10; k++)
 {
-	printf("%d\n", k);
-	k++;
+	printf("\n");
 }
 	return (0);
 }
