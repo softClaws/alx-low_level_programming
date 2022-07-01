@@ -2,7 +2,7 @@
 int main(void)
 {
 int n;
-if (a > 0)
+if (n > 0)
 {
 	printf("is positive%d\n", n);
 }
