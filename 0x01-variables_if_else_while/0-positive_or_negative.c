@@ -6,7 +6,7 @@
  */ 
 int main(void)
 {
-int n;
+int n=1;
 if (n > 0)
 {
 	printf("is positive%d\n", n);
