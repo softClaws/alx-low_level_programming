@@ -3,22 +3,23 @@
  * main - Entry point
  * code description
  * Return: Always 0 (Success)
- */ 
+ */
 int main(void)
 {
-int n=1;
+int n = 5;
 if (n > 0)
 {
-	printf("is positive%d\n", n);
+	printf("is positive\n");
 }
 else if (n == 0)
 {
-printf("is zero%d\n", n);
+printf("is zero\n");
 }
 else
 {
-	printf("is negative%d\n", n);
+	printf("is negative\n");
 }
+
 return (0);
 
 }
