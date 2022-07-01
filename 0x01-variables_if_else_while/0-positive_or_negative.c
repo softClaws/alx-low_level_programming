@@ -1,25 +1,25 @@
-#include<stdio.h>
-/**
- * main - Entry point
- * code description
- * Return: Always 0 (Success)
- */
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
-int n = 5;
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-	printf("n is positive\n");
+printf("is positive\n");
 }
 else if (n == 0)
 {
-printf("n is zero\n");
+printf("is zero\n");
 }
 else
 {
-	printf("n is negative\n");
+printf("is negative\n");
 }
-printf("value of n is : %d\n", n);
 return (0);
-
 }
