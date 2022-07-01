@@ -7,11 +7,6 @@
 */
 int main(void)
 {
-	int k = 0;
-
-	for (; k < 10; k++)
-{
-	putchar(k);
-}
+	printf("0123456789\n");
 	return (0);
 }
