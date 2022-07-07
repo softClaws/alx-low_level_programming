@@ -6,7 +6,7 @@
 
 void positive_or_negative(int i);
 
-#endif /* MAIN_H */
+
 
 /**
 * main - prints the largest of 3 integers
@@ -28,3 +28,4 @@ int main(void)
 
 	return (0);
 }
+#endif /* MAIN_H */
