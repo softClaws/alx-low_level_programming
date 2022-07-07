@@ -5,6 +5,8 @@
  *
  * Return: void
  */
+
+
 void print_most_numbers(void)
 {
 	char h;
@@ -12,11 +14,7 @@ void print_most_numbers(void)
 	for (h = '0'; h <= '9'; h++)
 	{
 		if (!(h == 2 || h == 4))
-		{
-		_putchar(h);
-
-		}
-		_putchar('\n');
-
+			_putchar(h);
 	}
+	_putchar('\n');
 }
