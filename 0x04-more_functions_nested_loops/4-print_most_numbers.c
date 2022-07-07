@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * print_most_numbers - print digit character excluding 2 and 4
+ * print_most_numbers - print digit character
  *
  * Return: void
  */
