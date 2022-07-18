@@ -10,35 +10,30 @@
 unsigned int _strspn(char *s, char *accept)
 {
 
-	int m, n, same;
+	unsigned int m, n;
 
-	same = m = 0;
 
 	/* going through string */
 
-	while (s[m] != '\0')
+	for (m = 0; s[m]; m++)
 	{
 		/* going through target */
 
-		for (n = 0; accept[n] != '\0'; n++)
+		for (n = 0; accept[n]; n++)
 		{
 			if (s[m] == accept[n])
-			{
 
-			same++;
-
-			break;
-			}
-		 /* check if index don't match, return same */
-
-			if (accept[n + 1] == '\n' && s[m] != accept[n])
-
-					return (same);
+				break;
 		}
 
-		m++;
+		 /* check if index don't match, return same */
+
+			if (!accept[n])
+
+				break;
+
 	}
 
 	/* return no. if all match till end */
-	return (same);
+	return (m);
 }
