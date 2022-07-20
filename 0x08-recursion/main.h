@@ -7,3 +7,8 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int find_root(int n, int root);
 int is_prime_number(int n);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
+int compare(char *head, char *tail);
+int _strlen(char *s);
+int substring_match(char *s1, char *s2, char *after_wldcd);
