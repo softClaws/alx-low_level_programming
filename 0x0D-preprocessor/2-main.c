@@ -2,13 +2,12 @@
 
 /**
  * main - print name of file
- *
- * Return: zero
+ * Return: 0 (zero)
  */
 
 int main(void)
 {
-	printf("%s/n", __FILE__);
+	printf("%s\n", __FILE__);
 
-		return (0);
+	return (0);
 }
