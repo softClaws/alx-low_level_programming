@@ -3,9 +3,7 @@
 
 /**
  * sum_them_all - sums up all param
- * @n: number of parameters
- *
- *
+ * @n: number of parameter 
  * Return: sum of all parameter
  */
 
@@ -19,5 +17,6 @@ int sum_them_all(const unsigned int n, ...)
 	for (m = 0; m < n; m++)
 		sum += va_arg(valist, int);
 	va_end(valist);
+
 	return (sum);
 }
