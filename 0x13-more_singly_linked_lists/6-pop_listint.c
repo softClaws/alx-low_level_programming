@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stdlib.h>
+
 
 /**
  * pop_listint - function that deletes th head node
