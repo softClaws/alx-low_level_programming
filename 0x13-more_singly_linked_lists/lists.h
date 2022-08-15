@@ -1,6 +1,11 @@
 #ifndef LIST_H
 #define LIST_H
-
+/**
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ * Description: singly linked list node structure for alx-holberton project
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
@@ -19,4 +24,5 @@ listint_t *add_nodeint(listint_t **head, const int n);
 listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 void free_listint2(listint_t **head);
+int pop_listint(listint_t **head);
 #endif
