@@ -4,8 +4,6 @@
  * print_listint - function that prints all the elements of a listint_t list
  * @h: pointer as an argument that represent the number of nodes
  * Return: the number of nodes
- *
- * i: is a counter
  */
 
 
