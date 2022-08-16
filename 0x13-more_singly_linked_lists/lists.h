@@ -6,9 +6,10 @@
  * @next: points to the next node
  * Description: singly linked list node structure for alx-holberton project
  */
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> /*printf*/
+#include <stdlib.h> /*malloc, free*/
 #include <stddef.h>
+#include <string.h> /*size_t*/
 
 typedef struct listint_s
 {
