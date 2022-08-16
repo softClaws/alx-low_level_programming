@@ -4,25 +4,19 @@
  * sum_listint - function that sum up all the data(n) of listint_t linked list
  * @head: pointer that points to the list
  * Return: sum
- *
- *
  */
 
 int sum_listint(listint_t *head)
 {
-	int sum, n;
-
-	sum = 0;
-	if (head == NULL)
-		return (0);
-	for (n = 0; n < sum; n++)
+	int sum = 0;
+	while (head != NULL)
 	{
-	
-	sum += n;
+		sum += head->n;
+		head = head->next;
 	}
-	if (sum == n)
-		return (sum);
+return (sum);
 
-	return (sum);
+
+
 
 }
