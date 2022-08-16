@@ -12,15 +12,17 @@ int sum_listint(listint_t *head)
 {
 	int sum, n;
 
-	n = 0;
-	if (head == NULL || n == 0)
+	sum = 0;
+	if (head == NULL)
 		return (0);
-	while (n > 0)
+	for (n = 0; n < sum; n++)
 	{
 	
 	sum += n;
-	sum = 0;
 	}
+	if (sum == n)
+		return (sum);
+
 	return (sum);
 
 }
